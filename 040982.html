@@ -4,6 +4,51 @@
     <meta charset="utf-8">
     <title>인생의 비밀</title>
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+
+      .btn_wrap{
+        width: 400px;
+        height: 100px;
+        border: 3px solid #F6E6E2;
+        margin: 100px auto;
+        box-sizing: border-box;;
+        position: relative;
+      }
+
+      .gage{
+          width: 0%;
+          height: 100%;
+          background-color: #F6E6E2;
+          position: absolute;
+          top:0;
+          left:0;
+          transition-duration: 0.5s;
+          transition-timing-function: ease-in-out;
+
+      }
+
+      .btn_wrap h3{
+        position: relative;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      .btn_wrap:hover .gage{
+            width: 100%;
+      }
+
+      .btn_wrap h3{
+            transition-duration: 0.5s;
+      }
+
+      .btn_wrap:hover h3{
+            color: white;
+      }
+
+
 
       p {
         text-align:center;
@@ -51,10 +96,12 @@
     우리의 삶은 영원하지 않습니다. 언젠간 끝이 있습니다.<br>
     삶의 끝자락에서 우리에게 가장 후회로 남게 될 일은 무엇일까요?</p>
  <div class="object">
-  <a href="09.html">확인해보기→</a>
+  <div class="btn_wrap">
+    <div class="gage"></div>
+    <h3><a href="09.html">확인해보기→</a><h3>
+  </div>
 </div>
 </div>
 
  </body>
 </html>
-
