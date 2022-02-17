@@ -23,11 +23,61 @@ color: 1572a1;
 
        }
        body {
-          background-image: url('benjamin-davies.jpg');
+          background-image: url('marcos-paulo-prado.jpg');
           background-attachment: fixed;
           background-position: center center;
           background-repeat: no-repeat;
           background-size: cover;
+          height: 100vh
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 0 auto;
+
+        }
+
+         .btn {
+
+             font-size: 25px;
+             padding: 15px 30px;
+             background-color: #D6D2AB;
+             color: black;
+             border: 30px solid #D6D2AB;
+             border-radius: 50px;
+             letter-spacing: 4px;
+             font-family: sans-serif;
+             transition: all 0.4s;
+             font-weight: bold;
+
+         }
+
+         .btn:focus{
+              outline: none;
+          }
+
+         .btn:hover {
+              background-color: FloralWhite;
+              color: white;
+              width: 100%;
+              height: 100%;
+
+
+          }
+         .container {
+         height: 200px;
+         position: relative;
+         }
+
+  .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+          }
+
+
 
         }
     </style>
@@ -41,7 +91,12 @@ color: 1572a1;
     당연히 후회되는 부분이 있을 것입니다.<br>
     먹어보지 못한 것, 가보지 못한곳, 해보지 못한것,<br>
     등등 때문에 수없이 많은 부분들이 후회가 될 것입니다.</p>
-    <p><a href="82.html">다음페이지→</a></p>
+<div class="container">
+  <div class="center">
+    <button class="btn"><a href="82.html">다음페이지→</a></button>
+  </div>
+</div>
+
      </body>
 
      </html>
