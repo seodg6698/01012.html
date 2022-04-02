@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>인생의 비밀</title>
     <style>
-      
+
        @media screen and (max-width: 800px) {
           *{
            margin: 0;
@@ -72,14 +72,9 @@
            text-align:center;
            font-size: 80px;
            font-weight: bold;
-           font-family: 'Black Han Sans', sans-serif;
-           font-family: 'Nanum Pen Script', cursive;
-           font-family: 'Sunflower', sans-serif;
            display: block;
-           padding: 3px;
-           background-color: #000;
-           color: #fff;
-           opacity: 0.7;
+           padding: 15px;
+
            top:50%;
          }
 
@@ -134,15 +129,9 @@
         text-align:center;
         font-size: 50px;
         font-weight: bold;
-        font-family: 'Black Han Sans', sans-serif;
-        font-family: 'Nanum Pen Script', cursive;
-        font-family: 'Sunflower', sans-serif;
         display: block;
-        padding: 3px;
-        font-size: 24px;
-        background-color: #000;
-        color: #fff;
-        opacity: 0.7;
+        padding: 15px;
+
       }
 
 
@@ -155,13 +144,27 @@
 
       }
 
-      body {
-         background-image: url('sharon.jpg');
-         background-attachment: fixed;
-         background-position: center center;
-         background-repeat: no-repeat;
-         background-size: cover;
-       }
+       .rich{
+        width: auto;
+        height: 1000px;
+        position: relative;}
+
+       .rich::before{
+        content: "";
+        background: url('sharon.jpg');
+        background-size: cover;
+        opacity: 0.5;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+                     }
+      .rich p{
+      color: rgb(121, 68, 219);
+      text-align: center;
+      line-height: 30px;
+      position: relative;}
 
     </style>
 
@@ -171,9 +174,10 @@
   <p><span style="background: linear-gradient(to right, #ffa7a3, #5673bd); padding: 0.43em 1em; font-size: 25px; border-radius: 3px; color: #ffffff;">
 끊임없는 갈망, 나를 위한 목적,부,명예,번성...</span></p>
   <p><span style="background: linear-gradient(to right, #ffa7a3, #5673bd); padding: 0.43em 1em; font-size: 25px; border-radius: 3px; color: #ffffff;">
-    이 모든것들이 다 이루어진다면 우리에게 정말 만족이 찾아올까요?<br>
-    우리의 삶은 영원하지 않습니다. 언젠간 끝이 있습니다.<br>
-    삶의 끝자락에서 우리에게 가장 후회로 남게 될 일은 무엇일까요?</span></p>
+    이 모든것들이 다 이루어진다면 우리에게 정말 만족이 찾아올까요?</span></p>
+      <p><span style="background: linear-gradient(to right, #ffa7a3, #5673bd); padding: 0.43em 1em; font-size: 25px; border-radius: 3px; color: #ffffff;">
+        우리의 삶은 영원하지 않습니다. 언젠간 끝이 있습니다.</span></p>
+      <p><span style="background: linear-gradient(to right, #ffa7a3, #5673bd); padding: 0.43em 1em; font-size: 25px; border-radius: 3px; color: #ffffff;">삶의 끝자락에서 우리에게 가장 후회로 남게 될 일은 무엇일까요?</span></p>
 
  <div class="object">
   <div class="btn_wrap">
@@ -185,3 +189,4 @@
 
  </body>
 </html>
+
